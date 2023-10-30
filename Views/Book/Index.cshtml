@@ -1,0 +1,8 @@
+﻿@model IEnumerable<PartialViewDemo.Models.Book>
+@Html.Partial("_BookList",Model)
+@{
+    Html.RenderPartial("_Demo");
+}
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
